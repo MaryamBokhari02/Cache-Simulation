@@ -1,5 +1,5 @@
 # Cache-Simulation
----
+
 DESCRIPTION
 ---
 This project is a simulation of Level-I cache with functionality of creating direct-mapped, set-associative
@@ -10,10 +10,10 @@ The code is purely written in C++ and it can only run on Linux machines.
 FUNCTIONALITY
 ---
 This Level-I cache simulator has the following command line options to produce cache: 
- *-s < split > or < unified >.
- *-c < capacity > with < capacity > in KB: 4, 8, 16, 32, or 64.
- *-b < blocksize > with < blocksize > in bytes: 4, 8, 16, 32, 64, 128, 256, or 512.
- *-a < associativity > where < associativity > is integer size of set: 1, 2, 4, 8 or 16.
+ * -s `< split >` or `< unified >`.
+ * -c `< capacity >` with `< capacity >` in KB: 4, 8, 16, 32, or 64.
+ * -b `< blocksize >` with `< blocksize >` in bytes: 4, 8, 16, 32, 64, 128, 256, or 512.
+ * -a `< associativity >` where `< associativity>` is integer size of set: 1, 2, 4, 8 or 16.
 
 Additionally, the simulator handles data write hits and misses with following command-line options: 
 * -wb write back (if write strategy not specified then write-back should be default for write hits)
@@ -41,6 +41,6 @@ An example prompt might look like: cache -s -c8 -b16 -a4
 --------------
 CONTRIBUTIONS
 --------------
-Maryam Bokhari 
-Kausar Ahamd 
-Hassan Mansoor 
+* Maryam Bokhari 
+* Kausar Ahamd 
+* Hassan Mansoor 
