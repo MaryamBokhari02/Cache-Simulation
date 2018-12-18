@@ -26,9 +26,9 @@ Multiple trace files have been uploaded to test the functionality of the program
 The trace files include sequence of memory access traces, one per line, terminated at the end of file. 
 In the following format, with a leading 0 for data loads, 1 for data stores and 2 for instruction
 load.
-0 <address>
-1 <address> <dataword>
-2 <address>
+0 "<address>"
+1 "<address> <dataword>"
+2 "<address>"
   
 ---------
 EXECUTION
