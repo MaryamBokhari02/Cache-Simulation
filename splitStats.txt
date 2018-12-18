@@ -1,0 +1,9 @@
+L1I Misses: 
+Total: 13438 InstructionReads: 13438
+L1I Miss Rate: 
+Total: 1.717% InstructionReads: 1.717%
+
+L1D Misses: 
+Total: 2.542e+04 DataReads: 1.989e+04 DataWrites: 5530
+L1D Miss Rate: 
+Total: 11.7%  DataReads: 13.2% DataWrites: 8.311%

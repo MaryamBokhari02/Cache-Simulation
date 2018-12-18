@@ -1,0 +1,4 @@
+L1 Misses: 
+Total: 8 DataReads: 8 DataWrites: 0
+L1 Miss Rate: 
+Total: 36.36% DataReads: 36.36% DataWrites: -nan%
